@@ -1,0 +1,46 @@
+                         /* background-attachment */
+
+.image1{
+    background-color: rgb(154, 151, 151) ;
+    background-image:url("../tamato.png") ;
+    background-repeat:no-repeat ;
+     /* background-attachment: fixed;  */
+    /* background-attachment: scroll;  */
+   /* 
+   
+fixed
+    The background is fixed relative to the viewport. Even if an element has a scrolling mechanism, the background doesn't move with the element. (This is not compatible with background-clip: text.)
+
+scroll
+    The background is fixed relative to the element itself and does not scroll with its contents. (It is effectively attached to the element's border.) */
+
+
+        /* background-position=> you can select the position of image by 3 method  */
+
+                          /* first one by words  */
+    /* background-position:  center   ; */
+    /* background-position: left center   ; */
+    /* background-position: left bottom   ; */
+    /* background-position: left top   ; */
+    /* background-position: right center   ; */
+    /* background-position: right top   ; */
+    /* background-position: right bottom  ; */
+    /* background-position: top center   ; */
+    /* background-position: bottom center   ; */
+    /* *note:if you enter one word or one position the browser will enter (center) value in second position
+    ex:background-position: bottom 
+    the image will be in bottom center of div  */
+
+                        /* second one by px */
+   /* background-position:200px 100px ;*/
+   /* the here 200px is x & the here 100px is y */
+                        /* third one by percentage */
+   /* background-position:100% 0%; */
+   /* the 100% here  is x & the 0%  here  is y */
+   /* *note=> in the second method and third method if you  enter one value the second will be the center of div  */
+   
+background-repeat:repeat-y ;
+
+
+
+}

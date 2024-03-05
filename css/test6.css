@@ -1,0 +1,58 @@
+                           /* padding */
+h1{
+   text-align: center;
+   color: rgb(78, 78,0) ;
+   background-color: rgb(221, 218, 218);
+}
+.p1{
+   text-align: center;
+   color: rgb(7, 3, 100) ;
+   background-color: rgb(221, 218, 218);
+}
+div{
+   font-size: 70px;
+   text-align: center;
+   background-color: coral;
+   /* type one of padding  */
+   /* padding:10px 20px 30px 40px ; */
+   /* 
+   The sequence will be like that.
+   10px for top 
+   20px for right 
+   30px for bottom
+   40px for left
+   */
+
+   /*  type two of padding */
+   /* padding: 10px ; */
+   /* here the  IDE will aplly 10px in all sides  
+       so it will be 10px 10px 10px 10px
+   */
+
+
+   /*  type three of padding */
+   /* padding:10px 20px ; */
+   /* here the 10px will apply in top and bottom of div 
+   and the 20px in right and left of div 
+    so it will be 10px 20px 10px 20px
+    */
+
+   /* type four of padding  */
+
+   /* padding: 10px 20px 15px  ; */
+
+   /* here the top paddind is equal 10px ,the right is 20px,the bottom is 15px ,but the left padding is not written so it will be equal to right padding 20px ,that mean if will not the padding be written it will take same value of the opposite side, so it will be 10px 20px 15px 20px   */
+
+   /* type five of padding  */
+
+   padding-top:10px ;
+   padding-right:20px ;
+   padding-bottom:15px ;
+   padding-left:25px ;
+
+   /* in this type you are already write the side with code  */
+
+}
+
+
+/* =>note: the padding is not accepted the negative value like -10px */
